@@ -1,8 +1,9 @@
 git init
 git add
-git commit
+git commit -m
 git status
 git log --pretty=oneline
 git reset --hard HEAD^
 git reset --hard 1234567
 git reflog
+git checkout -- file

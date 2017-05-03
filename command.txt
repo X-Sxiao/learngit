@@ -7,3 +7,4 @@ git reset --hard HEAD^
 git reset --hard 1234567
 git reflog
 git checkout -- file
+git rm

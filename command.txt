@@ -24,3 +24,12 @@ git stash list
 git stash pop
 git stash apply stash@{0}
 git stash drop
+git pull
+git branch --set-upstream dev origin/dev
+git checkout -b branch-name origin/branch-name
+git tag
+git tag <v1.0> <xxxxxxx>
+git tag -d <v1.0>
+git push <origin> <v1.0>
+git push <origin> --tags
+git push <origin> :refs/tags/<v1.0>
